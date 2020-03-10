@@ -27,6 +27,10 @@ public class ModItems {
 
         hache_fer = new ItemNovincraft("hache_fer");
 
+        
+
+
+
     }
 
     @SubscribeEvent
@@ -40,4 +44,5 @@ public class ModItems {
 
 
     }
+
 }
