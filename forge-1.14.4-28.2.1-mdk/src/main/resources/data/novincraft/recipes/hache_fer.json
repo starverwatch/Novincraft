@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "FFF",
+    "FBF",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "F": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+    "result" :
+    {
+      "item" : "novincraft:hache_fer"
+    }
+
+
+}
