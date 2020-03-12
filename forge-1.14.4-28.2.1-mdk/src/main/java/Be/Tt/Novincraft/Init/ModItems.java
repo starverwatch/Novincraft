@@ -34,7 +34,7 @@ public class ModItems {
         items = Lists.newArrayList();
 
 
-        hache_fer = new ToolAxe("hache_fer", ToolMaterialList.iron, 10, -2.7f, new Item.Properties().group(modecreative));
+        hache_fer = new ToolAxe(\"hache_fer", ToolMaterialList.iron, 10, -2.7f, new Item.Properties().group(modecreative));
 
         
 
