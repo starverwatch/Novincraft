@@ -7,7 +7,7 @@ public class ItemNovincraft extends Item
 {
     public ItemNovincraft(String name)
     {
-        super(new Properties().maxDamage(15));
+        super(new Properties());
 
         setRegistryName(name);
 

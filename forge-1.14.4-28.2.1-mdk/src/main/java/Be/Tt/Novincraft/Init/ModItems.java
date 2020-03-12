@@ -6,6 +6,7 @@ import Be.Tt.Novincraft.items.ItemNovincraft;
 import Be.Tt.Novincraft.items.ToolAxe;
 import Be.Tt.Novincraft.lists.ToolMaterialList;
 import com.google.common.collect.Lists;
+import javafx.geometry.Side;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -14,6 +15,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 
+import javax.swing.*;
 import javax.tools.Tool;
 import java.util.List;
 
@@ -29,12 +31,14 @@ public class ModItems {
 
     public static Item hache_fer;
     public static Item iron_ingot;
+    public static Item logo;
 
     private static void init() {
         items = Lists.newArrayList();
 
+        logo = new ItemNovincraft("logo");
 
-        hache_fer = new ToolAxe(\"hache_fer", ToolMaterialList.iron, 10, -2.7f, new Item.Properties().group(modecreative));
+        hache_fer = new ToolAxe("hache_fer", ToolMaterialList.iron, 10, -2.7f, new Item.Properties().group(modecreative));
 
         
 
