@@ -31,18 +31,13 @@ public class ModItems {
 
     public static Item hache_fer;
     public static Item iron_ingot;
-    public static Item logo;
 
     private static void init() {
         items = Lists.newArrayList();
 
-        logo = new ItemNovincraft("logo");
-
         hache_fer = new ToolAxe("hache_fer", ToolMaterialList.iron, 10, -2.7f, new Item.Properties().group(modecreative));
 
         
-
-
 
     }
 

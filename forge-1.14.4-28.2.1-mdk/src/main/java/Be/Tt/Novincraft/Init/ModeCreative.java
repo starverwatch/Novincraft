@@ -12,6 +12,6 @@ public class ModeCreative extends ItemGroup
 
     @Override
     public ItemStack createIcon() {
-        return new ItemStack(ModItems.logo);
+        return new ItemStack(ModItems.hache_fer);
     }
 }
