@@ -1,4 +1,6 @@
 {
+  "block.novincraft.saphire_block": "Block de saphire",
   "item.novincraft.hache_fer": "Hache de guerre",
-  "itemGroup.modecreative": "Novincraft"
+  "item.novincraft.saphire": "saphire",
+  "itemGroup.modecreative": "Novincraft",
 }

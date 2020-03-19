@@ -10,6 +10,7 @@ import javafx.geometry.Side;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Items;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -28,15 +29,17 @@ public class ModItems {
 
     public static final ItemGroup modecreative = new ModeCreative();
 
-
+    public static Item hache_saphire;
+    public static Item saphire;
     public static Item hache_fer;
     public static Item iron_ingot;
 
     private static void init() {
         items = Lists.newArrayList();
 
-        hache_fer = new ToolAxe("hache_fer", ToolMaterialList.iron, 10, -2.7f, new Item.Properties().group(modecreative));
-
+        hache_saphire = new ToolAxe("hache_saphire",ToolMaterialList.iron, 12, -3.2f, new Item.Properties().group(modecreative));
+        hache_fer = new ToolAxe("hache_fer", ToolMaterialList.iron, 10, -3.2f, new Item.Properties().group(modecreative));
+        saphire = new ItemNovincraft("saphire");
         
 
     }

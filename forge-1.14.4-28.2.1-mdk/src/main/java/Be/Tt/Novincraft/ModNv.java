@@ -1,5 +1,6 @@
 package Be.Tt.Novincraft;
 
+import Be.Tt.Novincraft.Init.ModBlocks;
 import Be.Tt.Novincraft.Init.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
@@ -22,6 +23,7 @@ public ModNv()
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);
 
         MinecraftForge.EVENT_BUS.register(ModItems.INSTANCE);
+        MinecraftForge.EVENT_BUS.register(ModBlocks.INSTANCE);
     }
     private void setup(final FMLCommonSetupEvent e)
         {
