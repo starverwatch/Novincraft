@@ -1,0 +1,24 @@
+{
+  "type": "novincraft:crafting_shaped",
+
+  "pattern": [
+
+    "SS ",
+    "SBS",
+    "BSS"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "novincraft:saphire"
+    }
+  },
+    "result" :
+    {
+      "item" : "novincraft:hache_saphire"
+    }
+
+
+}
