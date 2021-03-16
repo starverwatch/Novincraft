@@ -8,7 +8,7 @@ import net.minecraft.item.crafting.Ingredient;
 public enum ToolMaterialList implements IItemTier
 {
 
-    iron (-1,4, 400,1,25, ModItems.iron_ingot);
+    iron (-1,4, 400,1,25, ModItems.iron_ingot), diamond(0,4 ,1561,1,25, ModItems.diamond );
 
     private float attackDamage, efficiency;
     private int durability, harvestLevel, enchantability;

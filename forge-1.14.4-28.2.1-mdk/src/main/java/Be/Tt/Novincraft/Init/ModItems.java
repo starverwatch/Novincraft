@@ -33,12 +33,15 @@ public class ModItems {
     public static Item saphire;
     public static Item hache_fer;
     public static Item iron_ingot;
+    public static Item hache_diamond;
+    public static Item diamond;
 
     private static void init() {
         items = Lists.newArrayList();
 
         hache_saphire = new ToolAxe("hache_saphire",ToolMaterialList.iron, 12, -3.2f, new Item.Properties().group(modecreative));
         hache_fer = new ToolAxe("hache_fer", ToolMaterialList.iron, 10, -3.2f, new Item.Properties().group(modecreative));
+        hache_diamond = new ToolAxe("hache_diamond", ToolMaterialList.diamond, 11, -3f, new Item.Properties().group(modecreative));
         saphire = new ItemNovincraft("saphire");
         
 

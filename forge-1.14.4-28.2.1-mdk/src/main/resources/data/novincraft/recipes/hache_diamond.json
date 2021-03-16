@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "DD ",
+    "DBD",
+    "BDD"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+    "result" :
+    {
+      "item" : "novincraft:hache_diamond"
+    }
+
+
+}
