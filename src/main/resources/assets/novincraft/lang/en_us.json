@@ -1,4 +1,10 @@
 {
-  "item.copper_ingot.name": "Copper Ingot",
+  "item.novincraft.copper_ingot": "Copper Ingot",
+  "item.novincraft.copper_sword": "Copper Sword",
+  "item.novincraft.copper_axe": "Copper Axe",
+  "item.novincraft.copper_pickaxe": "Copper Pickaxe",
+  "item.novincraft.copper_shovel": "Copper Shovel",
+  "item.novincraft.copper_hoe": "Copper Hoe",
+
   "block.novincraft.copper_block": "Copper Block"
 }
