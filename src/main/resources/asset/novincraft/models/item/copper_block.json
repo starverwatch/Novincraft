@@ -1,3 +1,6 @@
 {
-  "parent": "novincraft:block/copper_block"
+  "parent": "novincraft:block/copper_block",
+  "texture": {
+    "layer0": "novincraft:item/copper_block.png"
+  }
 }
