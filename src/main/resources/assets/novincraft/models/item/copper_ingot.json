@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "texture": {
-    "layer0": "novincraft:item/copper_ingot.png"
+    "layer0": "novincraft:item/copper_ingot"
   }
 }
