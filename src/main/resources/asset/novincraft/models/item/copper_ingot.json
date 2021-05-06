@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated", // "item/handheld" pour les items comme les épée, pioches, sticks, etc
+  "texture": {
+    "layer0": "novincraft:item/copper_ingot" // chemin d'accès à la texture
+  }
+}
+
+// mettre la texture dans "novincraft/texture/item" en .png (pas jpeg)
