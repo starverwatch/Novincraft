@@ -11,6 +11,7 @@ public class ModItemGroups {
         public ItemStack createIcon() {
             return new ItemStack(ModItem.COPPER_INGOT.get());
         }
+
     };
 
 }

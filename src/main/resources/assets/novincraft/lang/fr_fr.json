@@ -6,5 +6,7 @@
   "item.novincraft.copper_shovel": "Pelle en Cuivre",
   "item.novincraft.copper_hoe": "Houe en Cuivre",
 
-  "block.novincraft.copper_block": "Bloc de Cuivre"
+  "block.novincraft.copper_block": "Bloc de Cuivre",
+
+  "itemGroup.novincraft": "Novincraft"
 }

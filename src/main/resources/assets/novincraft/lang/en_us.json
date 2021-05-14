@@ -6,5 +6,7 @@
   "item.novincraft.copper_shovel": "Copper Shovel",
   "item.novincraft.copper_hoe": "Copper Hoe",
 
-  "block.novincraft.copper_block": "Copper Block"
+  "block.novincraft.copper_block": "Copper Block",
+
+  "itemGroup.novincraft": "Novincraft"
 }

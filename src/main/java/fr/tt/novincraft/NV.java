@@ -3,6 +3,7 @@ package fr.tt.novincraft;
 import fr.tt.novincraft.init.ModBlocks;
 import fr.tt.novincraft.init.ModItem;
 import net.minecraft.util.math.shapes.SplitVoxelShape;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;

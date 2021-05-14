@@ -1,6 +1,7 @@
 package fr.tt.novincraft.init;
 
 import fr.tt.novincraft.NV;
+import fr.tt.novincraft.utils.ModItemGroups;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -19,11 +20,13 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> COPPER_BLOCK = createBlock("copper_block", () -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3f, 15f).harvestTool(ToolType.PICKAXE).harvestLevel(2))); // Création d'un nouveau block : nom="copper_block" résistance aux éxplosions ="3" Résistance ="15" Type d'outils ="pioche" Niveau de minage ="3 - fer"
 
+    public static final RegistryObject<Block> COPPER_ORE = createBlock("copper_ore", () -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3f, 15f).harvestTool(ToolType.PICKAXE).harvestLevel(2))); // Création d'un nouveau block : nom="copper_ore" résistance aux éxplosition ="3" Résistance ="15" Type d'outils ="pioche" Niveau de minage ="3 - fer"
+
     public static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> supplier)
     {
 
         RegistryObject<Block> block = BLOCKS.register(name, supplier);
-        ModItem.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        ModItem.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().group(ModItemGroups.NOVINCRAFT_TAB)));
         return block;
 
     }
