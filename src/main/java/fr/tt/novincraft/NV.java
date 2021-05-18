@@ -1,6 +1,7 @@
 package fr.tt.novincraft;
 
 import fr.tt.novincraft.init.ModBlocks;
+import fr.tt.novincraft.init.ModFeatures;
 import fr.tt.novincraft.init.ModItem;
 import net.minecraft.util.math.shapes.SplitVoxelShape;
 import net.minecraftforge.common.MinecraftForge;
@@ -29,7 +30,9 @@ public class NV
 
     private void setup(FMLCommonSetupEvent e)
     {
-
+        ModFeatures features = new ModFeatures();
+        features.init();
+        MinecraftForge.EVENT_BUS.register(features);
     }
 
     private void clientSetup(FMLClientSetupEvent e)
