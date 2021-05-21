@@ -13,12 +13,18 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 public class ModFeatures {
 
     public ConfiguredFeature<?, ?> COPPER_ORE_FEATURE;
+    public ConfiguredFeature<?, ?> TITAN_ORE_FEATURE;
 
     public void init()
     {
         COPPER_ORE_FEATURE = register("copper_ore", Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, ModBlocks.COPPER_ORE.get().getDefaultState(), 6))
         .square()
         .range(63)
+        .func_242731_b(20));
+
+        TITAN_ORE_FEATURE = register("titan_ore", Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, ModBlocks.TITAN_ORE.get().getDefaultState(), 4))
+        .square()
+        .range(12)
         .func_242731_b(20));
     }
 
@@ -28,13 +34,11 @@ public class ModFeatures {
     }
 
     @SubscribeEvent
-    public void biomeLoading(BiomeLoadingEvent e)
-    {
+    public void biomeLoading(BiomeLoadingEvent e) {
         BiomeGenerationSettingsBuilder generation = e.getGeneration();
-        if (e.getCategory() != Biome.Category.NETHER)
-        {
+        if (e.getCategory() != Biome.Category.NETHER) {
             generation.withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, COPPER_ORE_FEATURE);
+            generation.withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, TITAN_ORE_FEATURE);
         }
     }
-
 }

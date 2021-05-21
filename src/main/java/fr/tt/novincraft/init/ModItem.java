@@ -14,11 +14,13 @@ public class ModItem {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, NV.MODID);
 
-    // Création des Items en COPPER
+    // Création des Items
 
         // Création d'objets de type INGOT
 
             public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot", () -> new Item(new Item.Properties().group(ModItemGroups.NOVINCRAFT_TAB))); // Création d'un nouvel item dans minecraft -> nom="copper_ingot"
+
+            public static final RegistryObject<Item> TITAN_INGOT = ITEMS.register("titan_ingot", () -> new Item(new Item.Properties().group(ModItemGroups.NOVINCRAFT_TAB))); // Création d'un nouvel item dans minecraft -> nom="titane_ingot"
 
         // Création d'objets de type OUTILS
 

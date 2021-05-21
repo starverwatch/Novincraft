@@ -17,6 +17,7 @@ public enum CustomArmorMaterials implements IArmorMaterial {
 
     COPPER_ARMOR(NV.MODID + ":copper", 14, new int[]{2,4,5,2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> {
         return Ingredient.fromItems(ModItem.COPPER_INGOT.get());
+
     });
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};

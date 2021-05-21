@@ -5,6 +5,7 @@
   "item.novincraft.copper_pickaxe": "Copper Pickaxe",
   "item.novincraft.copper_shovel": "Copper Shovel",
   "item.novincraft.copper_hoe": "Copper Hoe",
+  "item.novincraft.titan_ingot": "Titan Ingot",
 
   "item.novincraft.copper_helmet": "Copper Helmet",
   "item.novincraft.copper_chestplate": "Copper Chestplate",
@@ -13,6 +14,8 @@
 
   "block.novincraft.copper_block": "Copper Block",
   "block.novincraft.copper_ore": "Copper Ore",
+  "block.novincraft.titan_block": "Titan Block",
+  "block.novincraft.titan_ore": "Copper Ore",
 
   "itemGroup.novincraft": "Novincraft"
 }
