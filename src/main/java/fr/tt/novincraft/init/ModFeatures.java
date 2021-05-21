@@ -19,7 +19,7 @@ public class ModFeatures {
         COPPER_ORE_FEATURE = register("copper_ore", Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, ModBlocks.COPPER_ORE.get().getDefaultState(), 6))
         .square()
         .range(63)
-        .func_242731_b(30));
+        .func_242731_b(20));
     }
 
     public <FC extends IFeatureConfig> ConfiguredFeature<FC, ?> register(String name, ConfiguredFeature<FC, ?> feature)
