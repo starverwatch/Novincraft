@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "novincraft:titan_ingot"
+    }
+  },
+  "result": {
+    "item": "novincraft:titan_block"
+  }
+}

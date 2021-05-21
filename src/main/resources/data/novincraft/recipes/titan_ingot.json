@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "novincraft:titan_block"
+    }
+  ],
+  "result": {
+    "item": "novincraft:titan_ingot",
+    "count": 9
+  }
+}
