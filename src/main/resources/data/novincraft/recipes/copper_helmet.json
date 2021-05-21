@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "C C"
+  ],
+  "key": {
+    "C": {
+      "item": "novincraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "novincraft:copper_helmet"
+  }
+}

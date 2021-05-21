@@ -6,7 +6,7 @@ import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
 
 public enum CustomItemTiers implements IItemTier {
-    COPPER(1, 420, 4.8f, 4.5f, 10, new LazyValue<>(() -> {return Ingredient.fromItems(ModItem.COPPER_INGOT.get());}));
+    COPPER(2, 420, 4.8f, 4.5f, 10, new LazyValue<>(() -> {return Ingredient.fromItems(ModItem.COPPER_INGOT.get());}));
 
 
     private final int harvestLevel;
