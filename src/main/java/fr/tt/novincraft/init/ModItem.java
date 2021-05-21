@@ -19,7 +19,7 @@ public class ModItem {
         // Création d'objets de type INGOT
 
             public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot", () -> new Item(new Item.Properties().group(ModItemGroups.NOVINCRAFT_TAB))); // Création d'un nouvel item dans minecraft -> nom="copper_ingot"
-
+            public static final RegistryObject<Item> DIMERITIUM_RAW_ORE = ITEMS.register("dimeritium_raw_ore", () -> new Item(new Item.Properties().group(ModItemGroups.NOVINCRAFT_TAB))); // Création d'un nouvel item dans minecraft -> nom="dimeritium_raw_ore"
         // Création d'objets de type OUTILS
 
             public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new SwordItem(CustomItemTiers.COPPER, 0, -2.4f, new Item.Properties().maxStackSize(1).group(ModItemGroups.NOVINCRAFT_TAB))); // Création d'une épée en cuivre

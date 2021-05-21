@@ -6,7 +6,9 @@
   "item.novincraft.copper_shovel": "Pelle en Cuivre",
   "item.novincraft.copper_hoe": "Houe en Cuivre",
 
-  "item.novincraft.copper_helmet": "Casque en Cuivre",
+  "item.novincraft.dimeritium_raw_ore":"fragment de dimeritium",
+
+  "item.novincraft.copper_helmet",: "Casque en Cuivre",
   "item.novincraft.copper_chestplate": "Plastron en Cuivre",
   "item.novincraft.copper_leggings": "Pantalon en Cuivre",
   "item.novincraft.copper_boots": "Bottes en Cuivre",
